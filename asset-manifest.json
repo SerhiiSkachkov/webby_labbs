@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/webby_labbs/static/css/main.aa33519a.chunk.css",
+    "main.js": "/webby_labbs/static/js/main.fbec888a.chunk.js",
+    "main.js.map": "/webby_labbs/static/js/main.fbec888a.chunk.js.map",
+    "runtime-main.js": "/webby_labbs/static/js/runtime-main.040564a3.js",
+    "runtime-main.js.map": "/webby_labbs/static/js/runtime-main.040564a3.js.map",
+    "static/js/2.e3a0d8d4.chunk.js": "/webby_labbs/static/js/2.e3a0d8d4.chunk.js",
+    "static/js/2.e3a0d8d4.chunk.js.map": "/webby_labbs/static/js/2.e3a0d8d4.chunk.js.map",
+    "index.html": "/webby_labbs/index.html",
+    "precache-manifest.1d676cc3f43b9dbdcb50f1c0bd84094b.js": "/webby_labbs/precache-manifest.1d676cc3f43b9dbdcb50f1c0bd84094b.js",
+    "service-worker.js": "/webby_labbs/service-worker.js",
+    "static/css/main.aa33519a.chunk.css.map": "/webby_labbs/static/css/main.aa33519a.chunk.css.map",
+    "static/js/2.e3a0d8d4.chunk.js.LICENSE.txt": "/webby_labbs/static/js/2.e3a0d8d4.chunk.js.LICENSE.txt",
+    "static/media/index.sass": "/webby_labbs/static/media/Robotothin.a11d03f7.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.040564a3.js",
+    "static/js/2.e3a0d8d4.chunk.js",
+    "static/css/main.aa33519a.chunk.css",
+    "static/js/main.fbec888a.chunk.js"
+  ]
+}
