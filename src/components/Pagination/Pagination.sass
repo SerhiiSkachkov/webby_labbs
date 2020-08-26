@@ -1,0 +1,29 @@
+.pagination 
+    display: flex
+    flex-flow: wrap
+    border-radius: 5px
+    padding: 15px 0px
+
+    &-item:first-child
+        .pagination-link
+            border-top-left-radius: 5px
+            border-bottom-left-radius: 5px
+
+    &-item:last-child 
+        .pagination-link
+            border-top-right-radius: 5px
+            border-bottom-right-radius: 5px
+
+    &-link 
+        position: relative
+        display: block
+        padding: 10px 15px
+        margin-left: -1px
+        line-height: 20px
+        color: #007bff
+        background-color: #fff
+        border: 1px solid #cccccc
+        &.active 
+            color: #fff
+            background-color: #007bff
+            border-color: #007bff

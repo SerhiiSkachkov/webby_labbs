@@ -1,0 +1,52 @@
+.form-field
+
+    &-wrapper 
+        display: flex
+        flex-direction: column
+        justify-content: center
+        position: relative
+        padding-bottom: 15px
+
+    &-label 
+        font-weight: 600
+        font-size: 12px
+        text-transform: uppercase
+        margin-bottom: 5px
+
+        &--file
+            display: flex
+            justify-content: center
+            align-self: center
+            min-height: 45px
+            width: 100%
+            font-size: 15px
+            padding: 10px 20px
+            margin-top: 10px
+            border: 1px solid #cccccc
+            border-radius: 5px
+            svg
+                margin-right: 5px
+            &:hover
+                cursor: pointer
+
+    &-control 
+        min-height: 45px
+        font-weight: 600
+        width: 100%
+        padding: 10px 20px
+        border: 1px solid #cccccc
+        border-radius: 5px
+        transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out
+        &:focus 
+            border-color: #80bdff
+            box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.25)
+            
+        &--textarea
+            min-height: 100px
+
+        &--file
+            display: none
+
+
+
+ 

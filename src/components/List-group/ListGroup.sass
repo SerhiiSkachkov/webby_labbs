@@ -1,0 +1,24 @@
+.list-group 
+    display: flex
+    flex-direction: column
+    align-items: flex-start
+    padding: 15px 0px
+    
+    &-item 
+        position: relative
+        list-style-type: none
+        border: 1px solid #cccccc
+        padding: 10px 20px
+        width: 100%
+
+        &:hover 
+            cursor: pointer
+
+        &:not(:last-child) 
+            border-bottom: none
+
+        &:first-child 
+            border-radius: 5px 5px 0 0
+
+        &:last-child 
+            border-radius: 0 0 5px 5px
